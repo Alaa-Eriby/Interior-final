@@ -1,0 +1,161 @@
+
+.footer {
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+
+.footer-top {
+  background-color: #f4eade; 
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.icon-item {
+  display: flex; 
+  align-items: center;
+  text-align: left;
+  flex: 1;
+  padding: 20px;
+}
+
+.features-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px; 
+}
+
+.icon-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-item h {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.icon-item p {
+  font-size: 12px;
+  color: #666;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto; 
+  flex-wrap: wrap; 
+  width: 100%; 
+  height: auto; 
+}
+
+.footer-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items:baseline; 
+  padding: 20px; 
+}
+
+.footer-section a {
+  color: #333; 
+  text-decoration: none; 
+  font-size: 14px;
+}
+
+.footer-section a:hover {
+  color: #555; 
+}
+
+.footer-section h3,
+.footer-section h4 {
+  font-size: 16px;
+  font-weight:normal;
+  margin-bottom: 44px;
+  color: rgba(128, 128, 128, 0.391);
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: -11px;
+  font-size: 16px;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+
+.footer-section address {
+  font-style: normal;
+  color: #6666669e;
+  font-size: 16px;
+  text-align:left;
+}
+.newsletter form {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.newsletter input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #333;
+  background: none;
+  width: 173px; 
+  font-size: 14px;
+  outline: none;
+  margin-right: 10px; 
+}
+
+.newsletter button {
+  border: none;
+  border-bottom: 1px solid #333; 
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 75px;
+  color: black;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.newsletter button:hover {
+  border-bottom: 1px solid #f4eade; 
+}
+.funiro h3 {
+  color: black;
+}
+
+.footer-copyright {
+  text-align:left;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #999;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+      flex-direction: column;
+  }
+
+  .icon-container {
+      flex-direction: column;
+  }
+
+  .icon-item {
+      margin-bottom: 20px;
+  }
+}

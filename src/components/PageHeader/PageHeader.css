@@ -1,0 +1,13 @@
+.page-header {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
